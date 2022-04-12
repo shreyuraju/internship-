@@ -41,3 +41,60 @@ void greater(num3, num4) {
    print(' num4 is Greater');
 
 }
+
+
+void main() {
+
+  print('Hello world!');
+
+  var city = "Bangalore";
+
+  print(city);
+
+  greet();
+
+  add(9,7);
+
+  greater(8,8);
+
+}
+
+void greet() {
+
+print('The sub function is invoked');
+
+}
+
+void add(var num1,num2) { 
+
+  var sum = num1 + num2;
+
+  print(sum);
+
+  
+
+}
+
+// All arithmetic operation functions 
+
+void greater(num3, num4) {
+
+  if(num3>num4) {
+
+    print(' num3 is Greater');
+
+    greet();
+
+  }
+
+   else if(num4>num3){
+
+   print(' num4 is Greater');
+
+   }
+
+  else 
+
+    print(' Both numbers are equal');
+
+}
